@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Prompt Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Prompt Request</h1>
+        <p>This endpoint accepts a prompt template as input and returns a response from the AI model.</p>
+        <ul>
+            <li>Endpoint: <code>/v1/promptRequest</code></li>
+            <li>Method: <code>POST</code></li>
+            <li>Input: <code>input</code> (any text)</li>
+            <li>Output: <code>ai_msg</code> (response from AI model)</li>
+        </ul>
+        <p>Example curl request:</p>
+        <pre>curl -X POST -H "Content-Type: application/json" -d '{"input": "Your prompt template here"}' http://localhost:8000/v1/promptRequest</pre>
+    </div>
+    <div class="container">
+        <h1>AI Chat Request</h1>
+        <p>This endpoint accepts a prompt template, context, user age, user gender, and session ID as input and returns a response from the AI model.</p>
+        <ul>
+            <li>Endpoint: <code>/v1/chatRequest</code></li>
+            <li>Method: <code>POST</code></li>
+            <li>Input: <code>input</code> (prompt template), <code>context</code> (context for the prompt), <code>user_age</code> (user age), <code>user_gender</code> (user gender), <code>session_id</code> (session ID)</li>
+            <li>Output: <code>ai_msg</code> (response from AI model)</li>
+        </ul>
+        <p>Example curl request:</p>
+        <pre>curl -X POST -H "Content-Type: application/json" -d '{"input": "Your prompt template here", "context": "Your context here", "user_age": "Your user age here", "user_gender": "Your user gender here", "session_id": "Your session ID here"}' http://localhost:8000/v1/chatRequest</pre>
+    </div>
+</body>
+</html>

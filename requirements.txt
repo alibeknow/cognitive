@@ -1,0 +1,13 @@
+torch
+transformers
+sentence_transformers
+autoawq
+fastapi
+uvicorn
+langchain
+langchain_community
+vllm
+gptcache
+rusenttokenize
+fasttext-langdetect
+loguru

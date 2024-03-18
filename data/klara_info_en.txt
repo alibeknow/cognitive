@@ -1,0 +1,69 @@
+The first fintech for women with a focus on entrepreneurship and community.
+===
+We are creating a product environment where women can not only do business and make purchases, but also communicate with each other, create joint companies, build communities, and support social projects.
+Our product considers the behavioral specifics of women as consumers and entrepreneurs, and helps them solve daily tasks.
+===
+Mission: Build a global community of a hundred million female entrepreneurs
+**Insight:**
+Men and women use money differently, that's why we are building a fintech focused on the financial behaviors of women.
+===
+We have noticed that women are the most underestimated clients by fintech companies. Despite being 51% of the population - they are more disciplined and financially literate clients. Women statistically have fewer defaults and are more active in small business.
+47% of Micro-Small Businesses are owned by Women.
+===
+For us, it is obvious that women today constitute an independent and cool audience for whom a special product can and should be developed. And we decided that fintech with socialization features would be the ideal environment for economically and socially active women.
+===
+Important trends and why Klara will be successful
+- The number of unique behavioral attributes is sufficient to identify women as a unique audience and create a product tailored to them;
+===
+- Female psychology is more inclined towards collaboration and participation in communities, which confirms the demand for a communication platform with payment functionality;
+- The availability of long and inexpensive institutional funding for the development of female entrepreneurship in the market.
+===
+What is the difference from regular banking?
+      Design and positioning, new UX;
+      Opportunity to participate in EBRD and ADB programs;
+      Wide targeted loyalty program;
+      Community development through chats and channels;
+      Development of lifestyle services within banking;
+===
+  We are designing a new user experience
+Widget design - the foundation of UX in Klara Ai
+UI design is the freedom for users to choose how and what to use.
+    1. The ability to customize the interface and services you use;
+    2. A strong referral program aimed at fully satisfying the intentions of mutual assistance and community, the desire to share a discovery;
+    3. Survey onboarding, where the package is tailored based on the user's answers, taking into account their goals and expectations for the product;
+Multi-currency card "Ki-Ki 
+Chats and Channels.
+The ability to create and read channels within the financial application, communicate with other clients, issue invoices, make transfers, and even provide consultations in a paid mode.
+===
+Klara AI is for women who are passionate about their work:
+    1. Credit limit up to 30 million at 0% interest for 100 days;
+    2. Seamless business creation opportunity: register as an individual entrepreneur, open a corporate account, and get a virtual business card;
+===
+Why do women engage in entrepreneurship (She s Next - a survey by Visa)
+Main reasons:
+I want more money 50% of respondents
+To work for myself 31% of respondents
+I want to develop 12% of respondents
+I dream of owning a business 9% of respondents
+===
+Pain and Concerns:
+The most common concerns are that their business will fail (29%), their financial situation will worsen (27%), and they will neglect their family and children (25%).
+Female entrepreneurs often face difficulties such as high competition (40%), raising capital (32%), and unfavorable business conditions (31%).
+===
+The main skills that respondents want to acquire are strategies for obtaining additional funding (47%), digital marketing and social media management (37%), e-commerce (24%), and expanding their business internationally (21%).
+===
+Where are we now?
+      Developed a design system and created a prototype
+      Acquired core banking with 99.9% SLA
+      Validated the project and are in talks with EBRD under their programs
+      Signed LOI with Mastercard for collaboration, they promise to compensate for CAC expenses and help with technologies
+      Identified Bank-partner for BaaS
+===
+Time to market - 3-4 months
+===
+Investment Rationale:
+      Possibility to participate in EBRD and ADB programs
+      Ready-to-use core banking with SLA at 99%
+      Mastercard support at ICA/BIN level and CAS compensation
+      Fast and cost-effective scaling
+      New user experience
