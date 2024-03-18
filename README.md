@@ -67,5 +67,5 @@ This endpoint accepts a prompt template, context, user age, user gender, and ses
 Example curl request:
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"input": "What services can Klara provide?", "context": "", "user\_name": "Mariya", "user\_age": "27", "user\_gender": "female", "session\_id": "mariya\_01f0"}' http://localhost:8000/v1/chatRequest
+curl -X POST -H "Content-Type: application/json" -d '{"input": "What services can Klara provide?", "context": "", "user_name": "Mariya", "user_age": "27", "user_gender": "female", "session_id": "mariya_01f0"}' http://localhost:8000/v1/chatRequest
 ```
