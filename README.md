@@ -26,6 +26,10 @@ Launch:
 ```
 python main.py
 ```
+Or, to write all stdout (not just the logs) to a file:
+```
+python main.py > extended_logs.log
+```
 Keyword args:
 ```
 --model (optional: llama2 or mixtral; default: llama2)
@@ -67,5 +71,27 @@ This endpoint accepts a prompt template, context, user age, user gender, and ses
 Example curl request:
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"input": "What services can Klara provide?", "context": "", "user_name": "Mariya", "user_age": "27", "user_gender": "female", "session_id": "mariya_01f0"}' http://localhost:8000/v1/chatRequest
+curl -X POST -H "Content-Type: application/json" -d '{"input": "What services can Klara provide?", "context": "", "user_name": "Мария", "user_age": "27", "user_gender": "female", "session_id": "mariya_01f0"}' http://localhost:5001/v1/chatRequest
+```
+Example Python request:
+```
+input = "Привет, Клара! Что ты умеешь?"
+user_age = "27"
+user_name = "Мария"
+user_gender = "female"
+session_id = "mariya_01f0"
+
+url = 'http://localhost:5001/v1/chatRequest'
+request_dict = {
+"input": input,
+"user_age": user_age,
+"user_name": user_name,
+"user_gender": user_gender,
+"session_id": session_id
+}
+
+response = requests.post(url, json=request_dict)
+ai_msg = response.json()['ai_msg']
+print("\nInput: %s" % input)
+print("\nOutput: %s" % ai_msg)
 ```
