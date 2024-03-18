@@ -57,7 +57,7 @@ This endpoint accepts a prompt template, context, user age, user gender, and ses
 *   Method: `POST`
 *   Input:  
     `input` (prompt template),  
-    `context` (_optional_ context; if not provided, will be inferred by Klara AI'a retrieval model based on information in data/),  
+    `context` (_optional_ context; if not provided, will be inferred by the Klara AI's retrieval model from files in data/),  
     `user_name` (user name),  
     `user_age` (user age),  
     `user_gender` (user gender),  
