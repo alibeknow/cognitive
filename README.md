@@ -46,7 +46,7 @@ This endpoint accepts a prompt template as input and returns a response from the
 Example curl request:
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"input": "Your prompt template here"}' http://localhost:8000/v1/promptRequest
+curl -X POST -H "Content-Type: application/json" -d '{"input": "Your custom prompt here"}' http://localhost:8000/v1/promptRequest
 ```
 
 #### AI Chat Request
