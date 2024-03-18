@@ -15,6 +15,7 @@ from loguru import logger
 import argparse
 import sys
 import fasttext
+import os
 
 fasttext.FastText.eprint = lambda x: None
 
@@ -32,6 +33,8 @@ parser.add_argument('-v', '--verbose', action = 'store_false')
 parser.add_argument('-lf', '--log_to_file', action = 'store_true')
 # dialogue window size (default: 15)
 parser.add_argument('-w', '--window', default = 15)
+
+hf_home_path = os.getenv("HF_HOME")
 
 args = parser.parse_args()
 
@@ -75,7 +78,11 @@ Main hyperparams:
 
 if args.model == 'mixtral':
 
-    model_path = "/m2/Models/hub/models--TheBloke--openbuddy-mixtral-8x7b-v15.2-AWQ/snapshots/b13a4c56e6a33d268a2329c8e8171971e7f9c823" # Mixtral-8x7B (~56B param model)
+    if args.model_path:
+        model_path = args.model_path
+    else:
+        # Mixtral-8x7B (~56B param model)
+        model_path = "%s/hub/models--TheBloke--openbuddy-mixtral-8x7b-v15.2-AWQ/snapshots/b13a4c56e6a33d268a2329c8e8171971e7f9c823" % hf_home_path
 
     llm = CustVLLM(model=model_path,
             trust_remote_code=True,
@@ -93,7 +100,11 @@ if args.model == 'mixtral':
 
 elif args.model == 'llama2':
 
-    model_path = "/m2/Models/hub/openbuddy-llama2-70B-v13.2-AWQ" # LLAMA 70B param model
+    if args.model_path:
+        model_path = args.model_path
+    else:
+        # LLAMA 70B param model
+        model_path = "%s/hub/models--TheBloke--openbuddy-llama2-70B-v13.2-AWQ" % hf_home_path
 
     llm = CustVLLM(model=model_path,
             trust_remote_code=True,
