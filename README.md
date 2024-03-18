@@ -2,7 +2,6 @@
 
 ### Architecture
 
-![Alt text](./data/KlaraAI bot architecture.svg)
 <img src="./data/KlaraAI bot architecture.svg">
 
 ### Installation
