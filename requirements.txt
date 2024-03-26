@@ -11,3 +11,4 @@ gptcache
 rusenttokenize
 fasttext-langdetect
 loguru
+openpyxl
