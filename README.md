@@ -30,6 +30,14 @@ Or, to write all stdout (not just the logs) to a file:
 ```
 python main.py > extended_logs.log
 ```
+To specify a model:
+```
+python main.py --model llama2 --model_path TheBloke/openbuddy-llama2-70B-v13.2-AWQ
+```
+or
+```
+python main.py --model mixtral --model_path TheBloke/openbuddy-mixtral-8x7b-v15.2-AWQ
+```
 Keyword args:
 ```
 --model (optional: llama2 or mixtral; default: llama2)
