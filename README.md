@@ -30,7 +30,7 @@ Or, to write all stdout (not just the logs) to a file:
 ```
 python main.py > extended_logs.log
 ```
-To specify a model:
+When running first time, one needs to specify path to model weights:
 ```
 python main.py --model llama2 --model_path TheBloke/openbuddy-llama2-70B-v13.2-AWQ
 ```
